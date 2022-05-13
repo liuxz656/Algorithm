@@ -13,6 +13,9 @@ public class Main {
 
         //rotate test
         rotateTest();
+
+        //plusOne Test
+        plusOneTest();
     }
 
     public static void twoSumTest() {
@@ -50,5 +53,12 @@ public class Main {
         Rotate solution = new Rotate();
         solution.rotate(nums,3);
         System.out.println("rotate...");
+    }
+
+    public static void plusOneTest(){
+        int[] nums = {9,9,7,9,9};
+        PlusOne solution = new PlusOne();
+        int[] result = solution.plusOne(nums);
+        System.out.println(result);
     }
 }
