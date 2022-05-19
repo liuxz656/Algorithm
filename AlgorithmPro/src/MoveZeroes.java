@@ -1,4 +1,4 @@
-
+//8.移动零
 //https://satin-piper-4c1.notion.site/8-04f528e057ae4853a33cf8e07c35f8f5
 
 public class MoveZeroes {

@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Hello world!");
 
 //        test TwoSum
-        twoSumTest();
+//        twoSumTest();
 
         //test RemoveDuplicates
 //        removeDuplicatesTest();
