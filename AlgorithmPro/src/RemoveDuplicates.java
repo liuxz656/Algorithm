@@ -1,3 +1,6 @@
+
+//https://satin-piper-4c1.notion.site/1-ba7c1518ef164c0187cc5fc00e5aa71a
+
 public class RemoveDuplicates {
 
     //nums 是一个升序的数组

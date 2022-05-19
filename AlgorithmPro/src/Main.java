@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        //test TwoSum
-//        twoSumTest();
+//        test TwoSum
+        twoSumTest();
 
         //test RemoveDuplicates
 //        removeDuplicatesTest();
@@ -12,15 +12,18 @@ public class Main {
 //        maxProfitTest();
 
         //rotate test
-        rotateTest();
+//        rotateTest();
 
-        //plusOne Test
-        plusOneTest();
+        //plusOne test
+//        plusOneTest();
+
+        //moveZeroes test
+//        moveZeroesTest();
     }
 
     public static void twoSumTest() {
         //test TwoSum
-        int[] nums = {2, 7, 11, 15};
+        int[] nums = {2, 11, 7, 15};
         int target = 9;
         TwoSum solution = new TwoSum();
         int[] result = solution.twoSum(nums, target);
@@ -60,5 +63,12 @@ public class Main {
         PlusOne solution = new PlusOne();
         int[] result = solution.plusOne(nums);
         System.out.println(result);
+    }
+
+    public static void moveZeroesTest(){
+        int[] nums = {2,1,0,0,12};
+        MoveZeroes solution  = new MoveZeroes();
+        solution.moveZeroes2(nums);
+        System.out.println(nums);
     }
 }

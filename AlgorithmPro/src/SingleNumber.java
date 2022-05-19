@@ -1,4 +1,5 @@
 
+//https://satin-piper-4c1.notion.site/5-95916ed8a359414ea7b37324cf23651f
 //给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 public class SingleNumber {
     //使用异或运算，将所有值进行异或
